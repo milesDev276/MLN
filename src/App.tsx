@@ -11,6 +11,7 @@ import { useState } from "react";
 import items from "./data/item.json";
 
 function Header() {
+  const navigation = useNavigate();
   return (
     <header className="header">
       <a
@@ -24,18 +25,11 @@ function Header() {
         </div>
       </a>
       <nav className="nav">
-        <a href="/item/0" className="nav-link">
-          Khái niệm cạnh tranh
-        </a>
-        <a href="/item/1" className="nav-link">
-          Các hình thức cạnh tranh
-        </a>
-        <a href="/item/2" className="nav-link">
-          Khái niệm độc quyền
-        </a>
-        <a href="/item/3" className="nav-link">
-          Quan hệ giữa cạnh tranh và độc quyền
-        </a>
+        {items.map((item, idx) => (
+          <div onClick={() => navigation(`/item/${idx}`)} className="nav-link">
+            {item.title}
+          </div>
+        ))}
       </nav>
     </header>
   );

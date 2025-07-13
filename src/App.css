@@ -24,6 +24,10 @@
   font-weight: bold;
   font-size: 1.3rem;
   letter-spacing: 1px;
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    transform: scale(1.15);
+  }
 }
 .codeless {
   color: #646cff;
@@ -40,6 +44,11 @@
   text-decoration: none;
   margin-right: 8px;
   font-size: 1rem;
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    color: #646cff;
+  }
 }
 .nav-btn {
   background: #2563ff;
