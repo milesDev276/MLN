@@ -70,6 +70,12 @@ function Quiz({ quiz }: { quiz: QuizType[] }) {
   );
   const [showResult, setShowResult] = useState(false);
   const correct = selected.filter((ans, i) => ans === quiz[i].answer).length;
+
+  const handleClear = () => {
+    setSelected(Array(quiz.length).fill(null));
+    setShowResult(false);
+  };
+
   return (
     <div>
       <h3>Quiz</h3>
@@ -118,6 +124,13 @@ function Quiz({ quiz }: { quiz: QuizType[] }) {
           Correct: {correct} / {quiz.length}
         </div>
       )}
+      <button
+        className="quiz-clear-btn"
+        style={{ marginLeft: 8, color: "white" }}
+        onClick={handleClear}
+      >
+        Clear
+      </button>
     </div>
   );
 }
@@ -268,13 +281,13 @@ function ItemDetail() {
         <div className="main-card-content-wrap">
           <div className="main-card-btns">
             <button className="main-btn" onClick={() => setShowVideo(true)}>
-              VIEW THEME / DEMO
+              Video minh họa
             </button>
             <button
               className="main-btn-outline"
               onClick={() => setShowQuiz(true)}
             >
-              VIEW HOST / DEMO
+              Small Quiz
             </button>
           </div>
           <div className="main-card-content">

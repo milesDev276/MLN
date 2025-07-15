@@ -1,8 +1,8 @@
 [
   {
     "title": "Khái niệm cạnh tranh",
-    "img": "/assets/image1.jpg",
-    "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "img": "https://res.cloudinary.com/dltzvpyh3/image/upload/v1752562766/a1_ppxm2d.png",
+    "video": "https://res.cloudinary.com/dltzvpyh3/video/upload/v1752562536/video1_hnpg9q.mp4",
     "desc": "Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế như doanh nghiệp, cá nhân, hoặc nhóm lợi ích… nhằm giành lợi thế về sản xuất, tiêu thụ hàng hóa, dịch vụ và thu lợi nhuận cao hơn.",
     "learn": [
       "Giải thích khái niệm: Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế như doanh nghiệp, cá nhân, hoặc nhóm lợi ích… nhằm giành lợi thế về sản xuất, tiêu thụ hàng hóa, dịch vụ và thu lợi nhuận cao hơn.",
@@ -14,16 +14,81 @@
       "Liên hệ thời đại: Trong thời đại số hóa hiện nay, cạnh tranh không chỉ nằm ở chất lượng sản phẩm, mà còn ở trải nghiệm người dùng, ứng dụng công nghệ AI, và mức độ bền vững của sản phẩm đối với môi trường."
     ],
     "quiz": [
-      { "question": "Cạnh tranh là gì?", "options": ["Khái niệm về cạnh tranh", "Khái niệm về độc quyền", "Khái niệm về hợp tác"], "answer": 0, "explain": ["Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế.", "Độc quyền là một chủ thể chi phối thị trường, không phải cạnh tranh.", "Hợp tác là cùng nhau phát triển, không phải cạnh tranh."] },
-      { "question": "Cạnh tranh diễn ra giữa những ai?", "options": ["Người sản xuất, người tiêu dùng, nhóm lợi ích", "Chỉ người sản xuất", "Chỉ người tiêu dùng"], "answer": 0, "explain": ["Cạnh tranh diễn ra giữa nhiều chủ thể khác nhau.", "Không chỉ người sản xuất mà còn các chủ thể khác.", "Không chỉ người tiêu dùng mà còn các chủ thể khác."] },
-      { "question": "Ví dụ thực tế về cạnh tranh là gì?", "options": ["Apple và Samsung ganh đua nhau", "EVN độc quyền điện", "Google độc quyền tìm kiếm"], "answer": 0, "explain": ["Apple và Samsung là ví dụ điển hình về cạnh tranh.", "EVN là ví dụ về độc quyền, không phải cạnh tranh.", "Google là ví dụ về độc quyền, không phải cạnh tranh."] },
-      { "question": "Cạnh tranh hiện đại còn ở đâu?", "options": ["Trải nghiệm người dùng, AI, bền vững", "Chỉ giá sản phẩm", "Chỉ quảng cáo"], "answer": 0, "explain": ["Cạnh tranh hiện đại còn ở trải nghiệm người dùng, AI, bền vững.", "Chỉ giá sản phẩm là chưa đủ.", "Chỉ quảng cáo là chưa đủ."] },
-      { "question": "Cạnh tranh giúp gì cho người tiêu dùng?", "options": ["Trải nghiệm sản phẩm mới, hiện đại hơn", "Không có lựa chọn", "Giá cao hơn"], "answer": 0, "explain": ["Cạnh tranh giúp người tiêu dùng có trải nghiệm mới, hiện đại hơn.", "Không có lựa chọn là hệ quả của độc quyền.", "Giá cao hơn không phải là lợi ích của cạnh tranh."] }
+      {
+        "question": "Cạnh tranh trong nền kinh tế thị trường là gì?",
+        "options": [
+          "Sự hợp tác giữa các doanh nghiệp",
+          "Sự ganh đua để giành quyền sở hữu tài sản",
+          "Sự ganh đua giữa các chủ thể kinh tế để giành lợi thế sản xuất và tiêu thụ",
+          "Sự thống trị của một doanh nghiệp trên thị trường"
+        ],
+        "answer": 2,
+        "explain": [
+          "Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế để giành lợi thế trong sản xuất và tiêu thụ.",
+          "Các phương án khác không mô tả đúng bản chất của cạnh tranh."
+        ]
+      },
+      {
+        "question": "Cạnh tranh không diễn ra giữa đối tượng nào sau đây?",
+        "options": [
+          "Các nhà sản xuất",
+          "Người tiêu dùng",
+          "Cơ quan nhà nước",
+          "Nhóm lợi ích"
+        ],
+        "answer": 2,
+        "explain": [
+          "Cơ quan nhà nước không phải là chủ thể trực tiếp trong cạnh tranh thị trường.",
+          "Các đối tượng còn lại thường tham gia vào cạnh tranh vì mục tiêu lợi ích."
+        ]
+      },
+      {
+        "question": "Yếu tố nào sau đây thường thúc đẩy cạnh tranh?",
+        "options": [
+          "Thiếu động lực lợi nhuận",
+          "Nhu cầu thị trường tăng",
+          "Sự quản lý tập trung của nhà nước",
+          "Không có doanh nghiệp mới gia nhập"
+        ],
+        "answer": 1,
+        "explain": [
+          "Nhu cầu thị trường tăng kích thích nhiều doanh nghiệp tham gia, dẫn đến cạnh tranh cao.",
+          "Các yếu tố còn lại đều có xu hướng kìm hãm cạnh tranh."
+        ]
+      },
+      {
+        "question": "Một trong những vai trò quan trọng nhất của cạnh tranh là gì?",
+        "options": [
+          "Làm giảm sự lựa chọn của người tiêu dùng",
+          "Duy trì giá cao trên thị trường",
+          "Thúc đẩy đổi mới và nâng cao chất lượng",
+          "Gây ra bất ổn xã hội"
+        ],
+        "answer": 2,
+        "explain": [
+          "Cạnh tranh thúc đẩy doanh nghiệp liên tục đổi mới và nâng cao chất lượng sản phẩm, dịch vụ.",
+          "Các phương án còn lại đều không phản ánh đúng vai trò tích cực của cạnh tranh."
+        ]
+      },
+      {
+        "question": "Trong nền kinh tế số, cạnh tranh ngày càng dựa nhiều vào yếu tố nào sau đây?",
+        "options": [
+          "Cắt giảm nhân công",
+          "Tăng vốn đầu tư cố định",
+          "Ứng dụng công nghệ và phân tích dữ liệu",
+          "Đóng cửa thị trường nội địa"
+        ],
+        "answer": 2,
+        "explain": [
+          "Cạnh tranh hiện đại phụ thuộc vào công nghệ, dữ liệu người dùng và AI để cá nhân hóa trải nghiệm.",
+          "Các yếu tố còn lại không phản ánh xu hướng cạnh tranh trong thời đại số."
+        ]
+      }
     ]
   },
   {
     "title": "Các hình thức cạnh tranh",
-    "img": "https://via.placeholder.com/380x180.png?text=Image+2",
+    "img": "https://res.cloudinary.com/dltzvpyh3/image/upload/v1752562766/a2_wqghgb.png",
     "video": "https://www.w3schools.com/html/movie.mp4",
     "desc": "Các doanh nghiệp có nhiều cách khác nhau để cạnh tranh, không chỉ qua giá mà còn bằng chất lượng, đổi mới, hay tiếp thị.",
     "learn": [
@@ -37,17 +102,77 @@
       "Liên hệ thời đại: AI và dữ liệu người dùng là “vũ khí” cạnh tranh mới."
     ],
     "quiz": [
-      { "question": "Một hình thức cạnh tranh là gì?", "options": ["Cạnh tranh về giá", "Độc quyền", "Không đổi mới"], "answer": 0, "explain": ["Cạnh tranh về giá là một trong những cách phổ biến để cạnh tranh.", "Độc quyền là tình trạng một doanh nghiệp chi phối thị trường, không phải cạnh tranh.", "Không đổi mới là một trạng thái, không phải là cách cạnh tranh."] },
-      { "question": "Cạnh tranh marketing là gì?", "options": ["Quảng cáo, khuyến mãi, hậu mãi", "Chỉ giảm giá", "Chỉ tăng chất lượng"], "answer": 0, "explain": ["Cạnh tranh marketing là việc sử dụng các chiến lược quảng cáo, khuyến mãi, hậu mãi để thu hút khách hàng.", "Chỉ giảm giá là một trong những cách cạnh tranh về giá.", "Chỉ tăng chất lượng là một trạng thái, không phải là cách cạnh tranh."] },
-      { "question": "Ví dụ về cạnh tranh trong giao đồ ăn?", "options": ["GrabFood, ShopeeFood, Baemin", "EVN", "Apple và Samsung"], "answer": 0, "explain": ["GrabFood, ShopeeFood, Baemin là ví dụ điển hình về cạnh tranh trong giao đồ ăn.", "EVN là một doanh nghiệp cung cấp dịch vụ điện, không phải là cạnh tranh.", "Apple và Samsung là ví dụ về độc quyền, không phải là cạnh tranh."] },
-      { "question": "Vũ khí cạnh tranh mới là gì?", "options": ["AI và dữ liệu người dùng", "Chỉ giá rẻ", "Chỉ quảng cáo"], "answer": 0, "explain": ["AI và dữ liệu người dùng là “vũ khí” cạnh tranh mới, giúp doanh nghiệp hiểu rõ hơn về nhu cầu và hành vi của khách hàng.", "Chỉ giá rẻ là một trạng thái, không phải là cách cạnh tranh.", "Chỉ quảng cáo là một trạng thái, không phải là cách cạnh tranh."] },
-      { "question": "Cạnh tranh sáng tạo là gì?", "options": ["Đổi mới sản phẩm, mô hình kinh doanh", "Không thay đổi gì", "Chỉ giảm giá"], "answer": 0, "explain": ["Cạnh tranh sáng tạo là việc liên tục đổi mới sản phẩm và mô hình kinh doanh để đáp ứng nhu cầu và mong muốn của khách hàng.", "Không thay đổi gì là một trạng thái, không phải là cách cạnh tranh.", "Chỉ giảm giá là một trạng thái, không phải là cách cạnh tranh."] }
+      {
+        "question": "Đâu là một hình thức cạnh tranh phổ biến?",
+        "options": [
+          "Cấm vận thương mại",
+          "Cạnh tranh về giá",
+          "Quản lý hành chính",
+          "Hợp tác liên chính phủ"
+        ],
+        "answer": 1,
+        "explain": [
+          "Cạnh tranh về giá là hình thức cơ bản và phổ biến nhất để thu hút khách hàng.",
+          "Các phương án còn lại không phản ánh hình thức cạnh tranh doanh nghiệp."
+        ]
+      },
+      {
+        "question": "Cạnh tranh về chất lượng KHÔNG bao gồm yếu tố nào sau đây?",
+        "options": [
+          "Cải tiến công nghệ",
+          "Tăng cường mẫu mã",
+          "Hạ thấp chi phí vận chuyển quốc tế",
+          "Dịch vụ hậu mãi"
+        ],
+        "answer": 2,
+        "explain": [
+          "Chi phí vận chuyển quốc tế không liên quan trực tiếp đến chất lượng sản phẩm.",
+          "Các yếu tố còn lại là thành phần cốt lõi trong cạnh tranh chất lượng."
+        ]
+      },
+      {
+        "question": "Doanh nghiệp sử dụng chiêu thức khuyến mãi và quảng cáo là đang cạnh tranh bằng cách nào?",
+        "options": ["Giá", "Marketing", "Sản xuất", "Chính trị"],
+        "answer": 1,
+        "explain": [
+          "Khuyến mãi và quảng cáo là công cụ cạnh tranh marketing để thu hút khách hàng.",
+          "Các phương án khác không phù hợp trong bối cảnh này."
+        ]
+      },
+      {
+        "question": "Hình thức cạnh tranh nào giúp doanh nghiệp tạo lợi thế dài hạn bền vững?",
+        "options": [
+          "Hạ giá liên tục",
+          "Chiếm dụng vốn",
+          "Đổi mới sáng tạo",
+          "Độc quyền nhập khẩu"
+        ],
+        "answer": 2,
+        "explain": [
+          "Sáng tạo đổi mới giúp doanh nghiệp thích nghi và tồn tại lâu dài trong thị trường biến động.",
+          "Các phương án khác là chiến lược ngắn hạn hoặc không hợp pháp."
+        ]
+      },
+      {
+        "question": "Trong thị trường ứng dụng giao đồ ăn, các doanh nghiệp thường cạnh tranh bằng cách nào sau đây?",
+        "options": [
+          "Cấm đối thủ vận hành",
+          "Tăng giá dịch vụ",
+          "Ưu đãi, giao diện thân thiện và tốc độ",
+          "Độc quyền khu vực"
+        ],
+        "answer": 2,
+        "explain": [
+          "Ưu đãi và trải nghiệm người dùng là công cụ cạnh tranh chính của các ứng dụng giao đồ ăn.",
+          "Cấm vận hoặc độc quyền không áp dụng trong thị trường cạnh tranh tự do."
+        ]
+      }
     ]
   },
   {
     "title": "Khái niệm độc quyền",
-    "img": "https://via.placeholder.com/380x180.png?text=Image+3",
-    "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "img": "https://res.cloudinary.com/dltzvpyh3/image/upload/v1752562766/a3_kdfyma.png",
+    "video": "https://res.cloudinary.com/dltzvpyh3/video/upload/v1752561647/video3_y4nny8.mp4",
     "desc": "Độc quyền là tình trạng một doanh nghiệp hoặc một nhóm doanh nghiệp chi phối thị trường, từ đó kiểm soát giá cả, nguồn cung, và hạn chế sự tham gia của đối thủ khác.",
     "learn": [
       "Giải thích khái niệm: Độc quyền là tình trạng một doanh nghiệp hoặc một nhóm doanh nghiệp chi phối thị trường, từ đó kiểm soát giá cả, nguồn cung, và hạn chế sự tham gia của đối thủ khác.",
@@ -59,17 +184,82 @@
       "Liên hệ thời đại: Nhiều quốc gia chống độc quyền bằng luật pháp, các ông lớn công nghệ thường xuyên bị điều tra."
     ],
     "quiz": [
-      { "question": "Độc quyền là gì?", "options": ["Một doanh nghiệp chi phối thị trường", "Nhiều doanh nghiệp cạnh tranh", "Không có doanh nghiệp nào"], "answer": 0, "explain": ["Độc quyền là tình trạng một doanh nghiệp chi phối thị trường, không phải là cạnh tranh.", "Nhiều doanh nghiệp cạnh tranh là một trạng thái, không phải là cách cạnh tranh.", "Không có doanh nghiệp nào là một trạng thái, không phải là cách cạnh tranh."] },
-      { "question": "Doanh nghiệp độc quyền có thể làm gì?", "options": ["Tự định giá", "Không được định giá", "Phải cạnh tranh"], "answer": 0, "explain": ["Doanh nghiệp độc quyền có thể tự định giá, không lo bị cạnh tranh.", "Không được định giá là một trạng thái, không phải là cách cạnh tranh.", "Phải cạnh tranh là một trạng thái, không phải là cách cạnh tranh."] },
-      { "question": "Ví dụ về độc quyền ở Việt Nam?", "options": ["EVN cung cấp điện", "GrabFood giao đồ ăn", "Apple và Samsung"], "answer": 0, "explain": ["EVN là ví dụ điển hình về độc quyền ở Việt Nam.", "GrabFood là một doanh nghiệp giao đồ ăn, không phải là độc quyền.", "Apple và Samsung là ví dụ về độc quyền, không phải là độc quyền."] },
-      { "question": "Hạn chế của độc quyền là gì?", "options": ["Ít lựa chọn cho người tiêu dùng", "Nhiều lựa chọn hơn", "Giá rẻ hơn"], "answer": 0, "explain": ["Hạn chế của độc quyền là thị trường trở nên ít lựa chọn hơn với người tiêu dùng.", "Nhiều lựa chọn hơn là một trạng thái, không phải là hạn chế của độc quyền.", "Giá rẻ hơn là một trạng thái, không phải là hạn chế của độc quyền."] },
-      { "question": "Quốc gia làm gì với độc quyền?", "options": ["Chống độc quyền bằng luật pháp", "Khuyến khích độc quyền", "Không quan tâm"], "answer": 0, "explain": ["Quốc gia thường chống độc quyền bằng việc ban hành các luật pháp, điều chỉnh thị trường để bảo vệ người tiêu dùng và cạnh tranh.", "Khuyến khích độc quyền là một trạng thái, không phải là cách quốc gia phản đối độc quyền.", "Không quan tâm là một trạng thái, không phải là cách quốc gia phản đối độc quyền."] }
+      {
+        "question": "Độc quyền là gì?",
+        "options": [
+          "Một thị trường có nhiều doanh nghiệp cùng tham gia",
+          "Trạng thái một doanh nghiệp kiểm soát thị trường và giá cả",
+          "Sự cạnh tranh khốc liệt giữa các tập đoàn",
+          "Mô hình quản lý của nhà nước"
+        ],
+        "answer": 1,
+        "explain": [
+          "Độc quyền là trạng thái một doanh nghiệp chiếm ưu thế và kiểm soát toàn bộ thị trường.",
+          "Các phương án còn lại không mô tả đúng định nghĩa của độc quyền."
+        ]
+      },
+      {
+        "question": "Đâu là một hệ quả tiêu cực của độc quyền?",
+        "options": [
+          "Giá cả cạnh tranh",
+          "Nâng cao năng suất lao động",
+          "Giảm lựa chọn cho người tiêu dùng",
+          "Tăng sự gia nhập thị trường"
+        ],
+        "answer": 2,
+        "explain": [
+          "Khi độc quyền, người tiêu dùng có ít lựa chọn hơn và dễ bị ép giá.",
+          "Các lựa chọn khác hoặc là hệ quả tích cực, hoặc không đúng bản chất."
+        ]
+      },
+      {
+        "question": "Ví dụ nào sau đây thể hiện tình trạng độc quyền tại Việt Nam?",
+        "options": [
+          "Viettel cạnh tranh với MobiFone",
+          "EVN cung cấp toàn bộ điện quốc gia",
+          "Nhiều ngân hàng tư nhân cùng tồn tại",
+          "Sự phát triển của các cửa hàng tiện lợi"
+        ],
+        "answer": 1,
+        "explain": [
+          "EVN là ví dụ điển hình về độc quyền trong lĩnh vực cung cấp điện.",
+          "Các phương án khác mô tả thị trường cạnh tranh."
+        ]
+      },
+      {
+        "question": "Tại sao độc quyền có thể dẫn tới kém hiệu quả kinh tế?",
+        "options": [
+          "Làm tăng sự cạnh tranh quốc tế",
+          "Khiến thị trường mở cửa quá nhanh",
+          "Do không có động lực cải tiến và kiểm soát giá",
+          "Do giảm đầu tư công nghệ"
+        ],
+        "answer": 2,
+        "explain": [
+          "Thiếu cạnh tranh khiến doanh nghiệp độc quyền không có động lực đổi mới, dẫn đến lãng phí nguồn lực.",
+          "Các phương án khác không phản ánh đúng bản chất kém hiệu quả."
+        ]
+      },
+      {
+        "question": "Trong trường hợp nào độc quyền có thể được chấp nhận?",
+        "options": [
+          "Khi doanh nghiệp nhỏ không muốn cạnh tranh",
+          "Khi nhà nước cần kiểm soát hạ tầng thiết yếu",
+          "Khi không còn đối thủ trên thị trường",
+          "Khi doanh nghiệp muốn tăng giá"
+        ],
+        "answer": 1,
+        "explain": [
+          "Một số lĩnh vực hạ tầng (như điện, nước) có thể được nhà nước độc quyền để đảm bảo an toàn và ổn định.",
+          "Các phương án còn lại không hợp lý về mặt kinh tế hoặc pháp lý."
+        ]
+      }
     ]
   },
   {
     "title": "Quan hệ giữa cạnh tranh và độc quyền",
-    "img": "https://via.placeholder.com/380x180.png?text=Image+4",
-    "video": "https://www.w3schools.com/html/movie.mp4",
+    "img": "https://res.cloudinary.com/dltzvpyh3/image/upload/v1752562765/a4_nrtily.png",
+    "video": "https://res.cloudinary.com/dltzvpyh3/video/upload/v1752560905/video4_t3xvpx.mp4",
     "desc": "Cạnh tranh và độc quyền có mối quan hệ gắn bó chặt chẽ. Cạnh tranh liên tục sẽ dẫn đến tích tụ vốn, mở rộng quy mô, từ đó hình thành các thế lực độc quyền. Nhưng độc quyền không hẳn triệt tiêu hoàn toàn cạnh tranh.",
     "learn": [
       "Giải thích khái niệm: Cạnh tranh và độc quyền có mối quan hệ gắn bó chặt chẽ. Cạnh tranh liên tục sẽ dẫn đến tích tụ vốn, mở rộng quy mô, từ đó hình thành các thế lực độc quyền. Nhưng độc quyền không hẳn triệt tiêu hoàn toàn cạnh tranh.",
@@ -80,11 +270,76 @@
       "Liên hệ thời đại: Doanh nghiệp độc quyền buộc phải đổi mới liên tục vì cạnh tranh quốc tế luôn hiện hữu."
     ],
     "quiz": [
-      { "question": "Cạnh tranh liên tục dẫn đến gì?", "options": ["Tích tụ vốn, mở rộng quy mô, hình thành độc quyền", "Giảm sản xuất", "Không thay đổi gì"], "answer": 0, "explain": ["Cạnh tranh liên tục dẫn đến tích tụ vốn, mở rộng quy mô, hình thành độc quyền.", "Giảm sản xuất là một trạng thái, không phải là hệ quả của cạnh tranh liên tục.", "Không thay đổi gì là một trạng thái, không phải là hệ quả của cạnh tranh liên tục."] },
-      { "question": "Độc quyền có triệt tiêu hoàn toàn cạnh tranh không?", "options": ["Không hẳn", "Có", "Luôn luôn"], "answer": 0, "explain": ["Độc quyền không hẳn triệt tiêu hoàn toàn cạnh tranh, nó chỉ hạn chế sự tham gia của đối thủ khác.", "Có là một trạng thái, không phải là cách độc quyền triệt tiêu cạnh tranh.", "Luôn luôn là một trạng thái, không phải là cách độc quyền triệt tiêu cạnh tranh."] },
-      { "question": "Ví dụ về cạnh tranh ngầm với Google?", "options": ["Bing, Baidu", "EVN", "Apple và Samsung"], "answer": 0, "explain": ["Bing, Baidu là ví dụ về cạnh tranh ngầm với Google.", "EVN là một doanh nghiệp cung cấp dịch vụ điện, không phải là cạnh tranh ngầm.", "Apple và Samsung là ví dụ về độc quyền, không phải là cạnh tranh ngầm."] },
-      { "question": "Doanh nghiệp độc quyền phải làm gì?", "options": ["Đổi mới liên tục", "Không cần đổi mới", "Giảm chất lượng"], "answer": 0, "explain": ["Doanh nghiệp độc quyền phải đổi mới liên tục để duy trì vị thế độc quyền và đáp ứng nhu cầu của khách hàng.", "Không cần đổi mới là một trạng thái, không phải là cách độc quyền đổi mới.", "Giảm chất lượng là một trạng thái, không phải là cách độc quyền đổi mới."] },
-      { "question": "Cạnh tranh quốc tế ảnh hưởng thế nào?", "options": ["Luôn hiện hữu, buộc đổi mới", "Không ảnh hưởng", "Chỉ ảnh hưởng nhỏ"], "answer": 0, "explain": ["Cạnh tranh quốc tế luôn hiện hữu, buộc doanh nghiệp độc quyền phải đổi mới liên tục để tồn tại.", "Không ảnh hưởng là một trạng thái, không phải là cách cạnh tranh quốc tế ảnh hưởng.", "Chỉ ảnh hưởng nhỏ là một trạng thái, không phải là cách cạnh tranh quốc tế ảnh hưởng."] }
+      {
+        "question": "Cạnh tranh có thể dẫn đến kết quả nào sau đây?",
+        "options": [
+          "Phân tán thị trường",
+          "Tăng sản phẩm nhập khẩu",
+          "Tập trung sản xuất và hình thành độc quyền",
+          "Giảm năng suất lao động"
+        ],
+        "answer": 2,
+        "explain": [
+          "Cạnh tranh dẫn đến loại bỏ doanh nghiệp yếu, tích tụ vốn và hình thành độc quyền.",
+          "Các phương án còn lại không phản ánh đúng quy luật cạnh tranh."
+        ]
+      },
+      {
+        "question": "Tại sao độc quyền vẫn tồn tại cạnh tranh ở một mức độ nhất định?",
+        "options": [
+          "Do nhà nước bắt buộc",
+          "Do sự cạnh tranh quốc tế và tiềm năng",
+          "Do người tiêu dùng yêu cầu",
+          "Do doanh nghiệp muốn chia sẻ lợi nhuận"
+        ],
+        "answer": 1,
+        "explain": [
+          "Ngay cả doanh nghiệp độc quyền trong nước vẫn phải cạnh tranh với các đối thủ quốc tế hoặc tương lai.",
+          "Các phương án còn lại không chính xác về bản chất thị trường."
+        ]
+      },
+      {
+        "question": "Ví dụ nào sau đây thể hiện mối quan hệ song hành giữa độc quyền và cạnh tranh?",
+        "options": [
+          "Một công ty nhỏ phá sản vì giá tăng",
+          "Google bị cạnh tranh bởi Bing dù đang chiếm thị phần lớn",
+          "Một doanh nghiệp không chịu thay đổi sản phẩm",
+          "EVN không bị giám sát"
+        ],
+        "answer": 1,
+        "explain": [
+          "Google có thị phần lớn nhưng vẫn bị cạnh tranh bởi Bing, Baidu...",
+          "Ví dụ này cho thấy độc quyền không loại bỏ hoàn toàn cạnh tranh."
+        ]
+      },
+      {
+        "question": "Quá trình cạnh tranh tích lũy dẫn đến độc quyền diễn ra như thế nào?",
+        "options": [
+          "Tăng sản xuất → tăng nhập khẩu → độc quyền",
+          "Tăng giá → giảm chất lượng → độc quyền",
+          "Mở rộng quy mô → loại bỏ đối thủ → kiểm soát thị trường",
+          "Giảm lao động → tăng quảng cáo → độc quyền"
+        ],
+        "answer": 2,
+        "explain": [
+          "Quá trình mở rộng quy mô giúp doanh nghiệp mạnh lên và loại bỏ đối thủ yếu hơn.",
+          "Các phương án còn lại không phản ánh logic của quá trình tích lũy cạnh tranh."
+        ]
+      },
+      {
+        "question": "Chính sách nào dưới đây giúp cân bằng giữa cạnh tranh và kiểm soát độc quyền?",
+        "options": [
+          "Ưu tiên doanh nghiệp lớn",
+          "Miễn thuế cho doanh nghiệp độc quyền",
+          "Luật chống độc quyền và hỗ trợ doanh nghiệp nhỏ",
+          "Giới hạn thương mại quốc tế"
+        ],
+        "answer": 2,
+        "explain": [
+          "Luật chống độc quyền và hỗ trợ doanh nghiệp nhỏ là biện pháp cần thiết để đảm bảo cạnh tranh lành mạnh.",
+          "Các phương án khác có thể làm mất cân bằng thị trường."
+        ]
+      }
     ]
   }
 ]
