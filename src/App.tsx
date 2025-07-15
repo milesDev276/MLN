@@ -55,8 +55,38 @@ function Modal({
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}>
-          ×
+        <button
+          className="modal-close"
+          onClick={onClose}
+          style={{
+            background: "transparent",
+            border: "none",
+            position: "absolute",
+            top: 12,
+            right: 18,
+            cursor: "pointer",
+            padding: 0,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: 36,
+            height: 36,
+            borderRadius: "50%",
+            transition: "background 0.2s",
+          }}
+          onMouseOver={(e) => (e.currentTarget.style.background = "#f2f2f2")}
+          onMouseOut={(e) => (e.currentTarget.style.background = "transparent")}
+          aria-label="Close"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="12" fill="#222" opacity="0.08" />
+            <path
+              d="M8 8L16 16M16 8L8 16"
+              stroke="#222"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+          </svg>
         </button>
         {children}
       </div>
